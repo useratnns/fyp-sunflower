@@ -6,7 +6,7 @@ A gardening app illustrating Android development best practices with Android Jet
 
 Android Sunflower is currently released as an alpha and is under heavy development. To view the
 latest changes, please visit the
-[Releases page](https://github.com/googlesamples/android-sunflower/releases).
+[Releases page](https://github.com/useratnns/android-sunflower/releases).
 Note that some changes (such as database schema modifications) are not backwards
 compatible during this alpha period and may cause the app to crash. In this
 case, please uninstall and re-install the app.
@@ -96,7 +96,7 @@ Updates will include incorporating additional Jetpack components and updating ex
 as the component libraries evolve.
 
 Interested in seeing a particular feature of the Android Framework or Jetpack implemented in this
-app? Please open a new [issue](https://github.com/googlesamples/android-sunflower/issues).
+app? Please open a new [issue](https://github.com/useratnns/android-sunflower/issues).
 
 Android Studio IDE setup
 ------------------------
@@ -105,11 +105,11 @@ downloaded from [here](https://developer.android.com/studio/).
 
 Sunflower uses [ktlint](https://ktlint.github.io/) to enforce Kotlin coding styles.
 Here's how to configure it for use with Android Studio (instructions adapted
-from the ktlint [README](https://github.com/shyiko/ktlint/blob/master/README.md)):
+from the ktlint [README](https://github.com/useratnns/ktlint/blob/master/README.md)):
 
 - Close Android Studio if it's open
 
-- Download ktlint using these [installation instructions](https://github.com/shyiko/ktlint/blob/master/README.md#installation)
+- Download ktlint using these [installation instructions](https://github.com/useratnns/ktlint/blob/master/README.md#installation)
 
 - Inside the project root directory run:
 
@@ -121,9 +121,9 @@ Additional resources
 --------------------
 Check out these Wiki pages to learn more about Android Sunflower:
 
-- [Notable Community Contributions](https://github.com/googlesamples/android-sunflower/wiki/Notable-Community-Contributions)
+- [Notable Community Contributions](https://github.com/useratnns/android-sunflower/wiki/Notable-Community-Contributions)
 
-- [Publications](https://github.com/googlesamples/android-sunflower/wiki/Sunflower-Publications)
+- [Publications](https://github.com/useratnns/android-sunflower/wiki/Sunflower-Publications)
 
 Non-Goals
 ---------
@@ -131,8 +131,8 @@ The focus of this project is on Android Jetpack and the Android framework.
 Thus, there are no immediate plans to implement features outside of this scope.
 
 A note on dependency injection - while many projects (such as
-[Plaid](https://github.com/nickbutcher/plaid)) use
-[Dagger 2](https://github.com/google/dagger) for DI, there are no plans to
+[Plaid](https://github.com/useratnns/plaid)) use
+[Dagger 2](https://github.com/useratnns/dagger) for DI, there are no plans to
 incorporate DI into Sunflower.  This allows developers unfamiliar with dependency
 injection to better understand Sunflower's code without having to learn DI.
 
@@ -144,7 +144,7 @@ Support
   - http://stackoverflow.com/questions/tagged/android-jetpack
 
 If you've found an error in this sample, please file an issue:
-https://github.com/googlesamples/android-sunflower/issues
+https://github.com/useratnns/android-sunflower/issues
 
 Patches are encouraged, and may be submitted by forking this project and submitting a pull request
 through GitHub.
